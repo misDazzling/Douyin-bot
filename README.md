@@ -1,14 +1,19 @@
 # 如何在抖音上找到漂亮小姐姐----抖音机器人
 
-[![Open Source Love](D:\Code\github\Douyin-bot-me\Douyin-bot\img\68747470733a2f2f6261646765732e66726170736f66742e636f6d2f6f732f76312f6f70656e2d736f757263652e7376673f763d313033.svg+xml)](https://github.com/ellerbrock/open-source-badge/) [![MIT Licence](D:\Code\github\Douyin-bot-me\Douyin-bot\img\68747470733a2f2f6261646765732e66726170736f66742e636f6d2f6f732f6d69742f6d69742e7376673f763d313033.svg+xml)](https://opensource.org/licenses/mit-license.php)
 
 ## 对原来的抖音机器人进行修改
 
 需要购买套餐：新人9.9元，购买地址：https://buy.cloud.tencent.com/iai_face?chargeMode=invoke
+
+使用提示，修改douyin-bot.py的45 46行，改成自己的腾讯云 ID和密钥。
+secretId = '***'  #一定要填，需要先在购买腾讯云ai人脸识别的套餐 ，购买链接https://buy.cloud.tencent.com/iai_face?chargeMode=invoke
+secretKey = '***' #一定要填，需要先在购买腾讯云ai人脸识别的套餐
 
 。
 
 
 
 屏幕如果点赞或者评论有问题，需要根据自己手机的分辨度修改，在config文件夹添加自己分辨度的文件夹，在config.json里面设置坐标。
+
+评论需要手机下载apk里面的 ADBKeyBoard.apk，并且启用ADBkeyBoard这个输入法。
 
